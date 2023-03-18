@@ -86,12 +86,12 @@ body{
     "des des right";
 }
 .img-box{
-    grid-area: img;
-    min-height: 350px;
-    background: #fff url(../assets/images/image-web-3-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 50px;
+    grid-area: img;  
+}
+.img-fluid{
+    display: block;
+    max-width: 100%;
+    min-height: 200px;
 }
 .img-box img{
     width: 100%;
@@ -317,11 +317,7 @@ body{
     .container{
         padding: 45px 60px;
     }
-    /* Main container */
-    .img-box{
-        background-size: cover;
-        background: #fff url(../assets/images/image-web-3-mobile.jpg);
-    }
+    
     /* Bottom container */
     .bottom-container{
         grid-gap: 50px;
