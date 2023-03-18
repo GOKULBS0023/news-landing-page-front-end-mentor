@@ -291,6 +291,9 @@ body{
 }
 /* 800px and below */
 @media (max-width: 800px){
+    .container{
+        grid-gap: 30px;
+    }
     /* Navbar */
     
     .nav{
@@ -336,6 +339,7 @@ body{
     /* Container */
     .container{
         padding: 25px 30px;
+        grid-gap: 20px;
     }
     /* Main Container */
     .des-box{
