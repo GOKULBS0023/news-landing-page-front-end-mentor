@@ -345,6 +345,9 @@ body{
     .des-box{
         grid-template-columns: 1fr;
     }
+    .right-box{
+        padding: 20px;
+    }
     /* Bottom Container */
     .bottom-container{
         grid-gap: 30px;
