@@ -12,6 +12,7 @@ function resizing(){
         itemsBar.style.display ="none";
         toggleBtnEl.classList.remove('hidden');
         menuBtn.classList.remove('hidden');
+        closeBtn.classList.add('hidden');
     } else {
         toggleBtnEl.classList.add('hidden');
         menuBtn.classList.add('hidden');
